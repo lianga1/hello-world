@@ -1,7 +1,9 @@
 #include<stdio.h>
-
+#include"list.h"
 int main()
 {
-    printf("hello world\n");
+    LNode *L;
+    L=CreateEmptyList();
+    printf("%d",L->data);
     return 0;
 }
